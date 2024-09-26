@@ -53,8 +53,8 @@
   --color-darken-light: rgb(20 20 0 / 5%);
 
   /* Functional Colors */
-  --interaction-color: var(--color-dark);
-  --decoration-color: var(--color-pink);
+  --interaction-color: var(--color-pink);
+  --decoration-color: var(--color-green);
   --icon-color: var(--color-blue);
   --text-color: var(--color-darker);
   --headline-color: var(--color-darkblue);
