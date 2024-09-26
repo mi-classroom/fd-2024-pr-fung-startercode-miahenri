@@ -1,2 +1,57 @@
 /* Work Overview
 ############################################################################ */
+.work-overview {
+    display: grid; /* Setzt den Container auf ein Grid-Layout */
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Automatische Spaltenanpassung */
+    gap: var(--size-s); /* Abstand zwischen den Grid-Elementen */
+    row-gap: var(--size-s); /* Abstand zwischen den Grid-Reihen */
+    max-width: 1000px; /* Maximale Breite des Containers */
+    margin-bottom: var(--size-l); /* Abstand zum nächsten Element */
+
+    .work-item {
+        background-color: var(--color-lighten-strong);
+        border-bottom: var(--border-width) solid var(--color-pink);
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        gap: var(--size-s);
+        min-width: 400px;
+        max-width: 500px;
+
+        img {
+            max-width: 120px;
+            height: 100px;
+            object-fit: cover;
+            margin-left: var(--size-s);
+            margin-top: var(--size-s);
+        }
+
+        .work-item-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            gap: var(--size-xs);
+            margin-top: var(--size-s);
+
+            h3 {
+                font-size: 16px;
+                font-weight: var(--fw-bold);
+                margin: 0;
+            }
+
+            .taglist {
+                display: flex;
+                flex-direction: row;
+                gap: var(--size-xs);
+                color: var(--color-pink);
+                font-size: 16px;
+                font-weight: var(--fw-light);
+                margin-bottom: var(--size-m);
+            }
+
+            .taglist li:not(:last-child)::after { /* Von Chat GPT */
+                content: ", ";
+            }
+        }
+    }
+}
