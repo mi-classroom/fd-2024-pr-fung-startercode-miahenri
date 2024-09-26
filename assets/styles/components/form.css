@@ -3,3 +3,54 @@
 
 /* Form
 ############################################################################ */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-s); 
+    max-width: 400px; 
+    margin-top: var(--size-xl);
+
+    p {
+        color: var(--color-lightest); 
+        font-size: var(--size-xxs); 
+        font-weight: var(--fw-light); 
+    }
+}
+
+input, textarea {
+    border: none; 
+    border-bottom: solid var(--border-width) var(--decoration-color); 
+    background-color: var(--color-dark); 
+    font-family: var(--font-family-sans); 
+    font-size: var(--base-font-size); 
+    font-weight: var(--fw-light);
+    padding: var(--size-xs) 0;
+}
+
+textarea {
+    height: 100px; 
+    margin-bottom: var(--size-l); 
+}
+
+::placeholder {
+    color: var(--color-lightest);
+    font-family: var(--font-family-sans);
+    font-size: var(--base-font-size);
+    font-weight: var(--fw-light);
+}
+
+button {
+    padding: var(--size-s) var(--size-m);
+  border-radius: var(--radius-xs);
+  background-color: var(--interaction-color);
+  color: var(--color-lightest);
+  font-size: var(--size-m);
+  transition: all var(--tr-fast);
+  width: 170px;
+
+  &:hover{
+    background-color: var(--color-darkblue);
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+  }
+}
