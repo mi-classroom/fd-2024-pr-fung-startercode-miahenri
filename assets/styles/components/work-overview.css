@@ -55,3 +55,70 @@
         }
     }
 }
+
+
+
+/* Work Overview
+############################################################################ */
+.work-result {
+    margin-left: var(--size-l);
+    max-width: 800px;
+
+    h3 {
+        color: var(--color-black);
+        font-weight: var(--fw-medium);
+        margin-bottom: var(--size-xs);
+    }
+
+    h4 {
+        font-size: 1.2rem;
+        color: var(--color-dark);
+        font-weight: var(--fw-normal);
+        margin-bottom: var(--size-xs);
+    }
+
+    img {
+        width: 300px;
+        margin-bottom: var(--size-l);
+    }
+
+    .info-section {
+        border-top: var(--border-width) solid var(--color-green);
+        margin-top: var(--size-m);
+
+        p {
+            font-size: 15px;
+            border-bottom: var(--border-width) solid var(--color-green);
+
+            a{
+                border-bottom: none;
+            }
+        }
+    }
+
+    .description {
+        font-size: 15px;
+        line-height: var(--lh-tight);
+        margin-bottom: var(--size-xl);
+    }
+}
+
+.work-header {
+    margin-left: var(--size-l);
+    max-width: 800px;
+
+    h1{
+        color: var(--color-green);
+        font-size: 17px;
+        font-weight: var(--fw-medium);
+    }
+
+    h2{
+        font-size: 17px;
+        font-weight: var(--fw-medium);
+
+        a {
+            color: var(--color-dark);
+        }
+    }
+}
