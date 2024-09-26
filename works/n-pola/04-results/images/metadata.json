@@ -1,0 +1,200 @@
+[
+  {
+    "src": "images/polarek-nils-ba-ss24-bilddokumentation-01-s.webp",
+    "metadata": {
+      "Title": "Interviewpartner 1",
+      "Description": "Interview mit einem freischaffenden Fotoredakteur",
+      "Rights": "NILS POLAREK",
+      "ImageWidth": 1067,
+      "ImageHeight": 1600,
+      "Orientation": "portrait"
+    }
+  },
+  {
+    "src": "images/polarek-nils-ba-ss24-bilddokumentation-02-s.webp",
+    "metadata": {
+      "Title": "Interviewpartner 2",
+      "Description": "Interview mit einem wissenschaftlichen Mitarbeiter im Bereich der Öffentlichkeitsarbeit",
+      "Rights": "© Nils Polarek",
+      "ImageWidth": 1600,
+      "ImageHeight": 940,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/polarek-nils-ba-ss24-bilddokumentation-03-s.webp",
+    "metadata": {
+      "Title": "Scribbles",
+      "Description": "Erste Scribbles zur Systemgestaltung in einer frühern Phase der Arbeit.",
+      "Rights": "NILS POLAREK",
+      "ImageWidth": 1600,
+      "ImageHeight": 1067,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/polarek-nils-ba-ss24-bilddokumentation-04-s.webp",
+    "metadata": {
+      "Title": "Aufbau der Daten",
+      "Description": "Arbeit am Proof of Concept zur Pfelge benötigter Daten im Repository und an ersten TypeScript Types für zukünftige Systemkomponenten.",
+      "Rights": "NILS POLAREK",
+      "ImageWidth": 1067,
+      "ImageHeight": 1600,
+      "Orientation": "portrait"
+    }
+  },
+  {
+    "src": "images/polarek-nils-ba-ss24-bilddokumentation-05-s.webp",
+    "metadata": {
+      "Title": "Interviewpartner 3",
+      "Description": "Interview mit einem professionellen Fotografen zur Kontextanalyse.",
+      "Rights": "NILS POLAREK",
+      "ImageWidth": 1600,
+      "ImageHeight": 1067,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/polarek-nils-ba-ss24-bilddokumentation-06-s.webp",
+    "metadata": {
+      "Title": "Validation Pipeline",
+      "Description": "Ergebnisse einer Validation Pipeline zum Überprüfen der im Repository gepflegten Daten",
+      "Rights": "© Nils Polarek",
+      "ImageWidth": 1600,
+      "ImageHeight": 1116,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/polarek-nils-ba-ss24-bilddokumentation-07-s.webp",
+    "metadata": {
+      "Title": "PoC Prozessdarstellung",
+      "Description": "Erstes PoC zur Darstellung von Prozessen und Bestandteilen mithilfe des foreignObject Elements",
+      "Rights": "© Nils Polarek",
+      "ImageWidth": 1600,
+      "ImageHeight": 744,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/polarek-nils-ba-ss24-bilddokumentation-08-s.webp",
+    "metadata": {
+      "Title": "Proof of Concept Darstellung",
+      "Description": "Ein erstes Proof of Concept der Darstellung eines Prozesses und der Interaktion mit diesem.",
+      "Rights": "NILS POLAREK",
+      "ImageWidth": 1600,
+      "ImageHeight": 1067,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/polarek-nils-ba-ss24-bilddokumentation-09-s.webp",
+    "metadata": {
+      "Title": "Die Webapp wird funktionsfähig",
+      "Description": "Erfolgreiche Verbindung zum Backend, Aufbau und Arbeit mit einem Prozess als Graph, Bestimmung dynamischer Positionen im SVG-Koordinatenraum und Erstellung eigener Modals auf Basis des nativen <dialog>-Elements erlauben eine erste nutzbare Version der Webapp.",
+      "Rights": "NILS POLAREK",
+      "ImageWidth": 1600,
+      "ImageHeight": 1067,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/polarek-nils-ba-ss24-bilddokumentation-10-s.webp",
+    "metadata": {
+      "Title": "Deployment Pipeline",
+      "Description": "Zur automatisierten Veröffentlichung von neuen Versionen der Applikation wurde eine Deployment-Pipeline in GitHub geschaffen.",
+      "Rights": "NILS POLAREK",
+      "ImageWidth": 1600,
+      "ImageHeight": 1067,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/polarek-nils-ba-ss24-bilddokumentation-11-s.webp",
+    "metadata": {
+      "Title": "Cross Browser Probleme bei der Darstellung von Bestandteilen",
+      "Description": "Nach der Erstellung der interaktiven Visualisierung stellte sich heraus, dass Broswer Elemente mit einer „Grid“-Positionierung und einem darin enthaltenen Element mit der Eigenschaft „aspect-ratio: 1“ unterschiedlich darstellen. Es musste eine geeignete Lösung gefunden werden, sodass die Webapp auch in anderen Browsern außer Chrome nutzbar ist.",
+      "Rights": "© Nils Polarek",
+      "ImageWidth": 1225,
+      "ImageHeight": 1600,
+      "Orientation": "portrait"
+    }
+  },
+  {
+    "src": "images/polarek-nils-ba-ss24-bilddokumentation-12-s.webp",
+    "metadata": {
+      "Title": "Mobile Version der Weabpp",
+      "Description": "Aufgrund der Tatsache, dass mehr als die Hälfte des Internettraffics auf mobile Geräte zurückzuführen ist, wurde eine für Mobilgeräte optimierte Version der Anwendung erstellt.",
+      "Rights": "NILS POLAREK",
+      "ImageWidth": 1067,
+      "ImageHeight": 1600,
+      "Orientation": "portrait"
+    }
+  },
+  {
+    "src": "images/polarek-nils-ba-ss24-bilddokumentation-13-s.webp",
+    "metadata": {
+      "Title": "Mobiles Debugging",
+      "Description": "Um vorher nicht identifizierbare Fehler lösen zu können, wurde die Webapp mithilfe der Safari-Debugging-Tools untersucht.",
+      "Rights": "NILS POLAREK",
+      "ImageWidth": 1600,
+      "ImageHeight": 1067,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/polarek-nils-ba-ss24-bilddokumentation-14-s.webp",
+    "metadata": {
+      "Title": "Schriftliche Arbeit",
+      "Description": "Arbeit an der Illustration im Kapitle über die mobile Version der Webapp",
+      "Rights": "NILS POLAREK",
+      "ImageWidth": 1600,
+      "ImageHeight": 1067,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/polarek-nils-ba-ss24-bilddokumentation-15-s.webp",
+    "metadata": {
+      "Title": "Das Werk",
+      "Description": "Die finale Version der Webapp, live auf www.can-i-cai.de",
+      "Rights": "NILS POLAREK",
+      "ImageWidth": 1600,
+      "ImageHeight": 1067,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/polarek-nils-ba-ss24-bilddokumentation-16-s.webp",
+    "metadata": {
+      "Title": "\"Professioneller\" Videodreh",
+      "Description": "Improvisiertes Setup zum Dreh des Abschlussvideos",
+      "Rights": "© Nils Polarek",
+      "ImageWidth": 1600,
+      "ImageHeight": 1200,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/polarek-nils-ba-ss24-bilddokumentation-17-s.webp",
+    "metadata": {
+      "Title": "Die letzten Züge",
+      "Description": "Schnitt und Organisation der Inhalte des Abschlussvideos",
+      "Rights": "NILS POLAREK",
+      "ImageWidth": 1600,
+      "ImageHeight": 1067,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/polarek-nils-ba-ss24-bilddokumentation-18-s.webp",
+    "metadata": {
+      "Title": "Die Arbeit",
+      "Description": "Das finale gedruckte Exemplar der Bachelorarbeit",
+      "Rights": "NILS POLAREK",
+      "ImageWidth": 1067,
+      "ImageHeight": 1600,
+      "Orientation": "portrait"
+    }
+  }
+]
