@@ -1,3 +1,4 @@
+/* stylelint-disable */
 /* Work Overview
 ############################################################################ */
 .work-overview {
@@ -111,6 +112,20 @@
     iframe {
         width: 550px;
         height: 300px;
+    }
+
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: var(--size-s);
+        row-gap: var(--size-s);
+        margin-top: var(--size-l);
+
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
 }
 
