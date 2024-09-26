@@ -3,6 +3,7 @@ details{
   
   summary {
     display: flex;
+    font-weight: var(--fw-medium);
     list-style: none;
 
     &::before {
