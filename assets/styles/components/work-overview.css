@@ -77,6 +77,12 @@
         margin-bottom: var(--size-xs);
     }
 
+    h5 {
+        color: var(--color-darkblue);
+        font-size: 15px;
+        font-weight: var(--fw-medium);
+    }
+
     img {
         width: 300px;
         margin-bottom: var(--size-l);
@@ -100,6 +106,11 @@
         font-size: 15px;
         line-height: var(--lh-tight);
         margin-bottom: var(--size-xl);
+    }
+
+    iframe {
+        width: 550px;
+        height: 300px;
     }
 }
 
